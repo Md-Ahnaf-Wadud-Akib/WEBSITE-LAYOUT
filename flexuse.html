@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login-container{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .login-form input, button{
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 5px solid gray;
+        }
+        #button{
+            background-color: lightskyblue;
+            color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="login-container">
+        
+
+        <div class="login-form">
+            <h2>Log In</h2>
+            <input type="email" name="email" placeholder="Please enter your email" id="" required>
+            <input type="password" name="password" placeholder="please enter your password" id="" required>
+            <input id="button" type="button" value="Login">
+        </div>
+    </div>
+</body>
+</html>
