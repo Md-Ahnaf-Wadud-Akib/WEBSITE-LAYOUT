@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos</title>
+    <style>
+        .album{
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        .photo{
+            width: 300px;
+            height: 200px;
+            border: 5px solid blueviolet;
+            padding: 2px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        .photo-details{
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            top: 0;
+            display: none;
+        }
+        .photo img{
+            width: 100%;
+            height: 200px;
+            border-radius: 5px;  
+        }
+        .photo:hover .photo-details{
+            display: block;
+            background-color: rgba(107, 121, 146, 0.226);
+            color: darkblue;
+        }
+        .photo-details h2{
+            background-color: darkcyan;
+            color: white;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="album">
+            <div class="photo">
+                <img src="img/unnamed.jpg" alt="">
+
+                <div class="photo-details">
+                    <h2>Tiger mama</h2>
+                    <p>Vitae esse consequatur, est eum quos dicta autem sint quo nemo dolorum aliquam a fugit cumque iusto, ad, id reiciendis!</p>
+                </div>
+
+            </div>
+            <div class="photo">
+                <img src="img/unnamed.jpg" alt="">
+
+                <div class="photo-details">
+                    <h2>Tiger mama</h2>
+                    <p>Vitae esse consequatur, est eum quos dicta autem sint quo nemo dolorum aliquam a fugit cumque iusto, ad, id reiciendis!</p>
+                </div>
+
+            </div>
+            <div class="photo">
+                <img src="img/unnamed.jpg" alt="">
+
+                <div class="photo-details">
+                    <h2>Tiger mama</h2>
+                    <p>Vitae esse consequatur, est eum quos dicta autem sint quo nemo dolorum aliquam a fugit cumque iusto, ad, id reiciendis!</p>
+                </div>
+
+            </div>
+            <div class="photo">
+                <img src="img/unnamed.jpg" alt="">
+
+                <div class="photo-details">
+                    <h2>Tiger mama</h2>
+                    <p>Vitae esse consequatur, est eum quos dicta autem sint quo nemo dolorum aliquam a fugit cumque iusto, ad, id reiciendis!</p>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
